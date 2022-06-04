@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Laravel</title>
+    </head>
+
+    <body>
+        <h1>Hello, {{ Auth::user()->username }} </h1>
+        
+        This is the main page!
+
+        <p>
+            <a href="/logout">Logout</a>
+        </p>
+    </body>
+</html>
